@@ -3,6 +3,12 @@ name = "xselfref"
 version = "0.1.0"
 edition = "2021"
 
-[lib]
+repository = "https://github.com/FeanorTheElf/xselfref"
+homepage = "https://github.com/FeanorTheElf/xselfref"
+keywords = ["selfref"]
+readme = "Readme.md"
+description = "Fork of the selfref library, with some additions"
+license = "MIT"
 
-[dependencies]
+[lib]
+crate-type = ["rlib"]
